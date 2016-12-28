@@ -1,7 +1,7 @@
 import {bootstrap} from 'angular2/platform/browser';
-import {App} from './app';
+import {HelloComponent} from './hello.component';
 
-bootstrap(App).catch(err => console.error(err));
+bootstrap(HelloComponent).catch(err => console.error(err));
 
 /*
 Copyright 2016 Google Inc. All Rights Reserved.
