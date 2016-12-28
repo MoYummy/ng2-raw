@@ -5,9 +5,7 @@ import {Component} from 'angular2/core';
     template: `
         <h1>Hello, {{name}}!</h1>
         Say hello to: <input [value]="name" (input)="name = $event.target.value">
-    `,
-    styleUrls: [
-    ]
+    `
 })
 export class HelloComponent {
     name: string = 'ng2';
